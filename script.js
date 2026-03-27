@@ -1,4 +1,4 @@
-let backgrounds = ['backgrounds/background1.png'];
+let backgrounds = ['backgrounds/background2.png', 'backgrounds/background1.png'];
 let currentIndex = 0;
 let layer1 = document.getElementById('bg-layer1');
 let layer2 = document.getElementById('bg-layer2');
@@ -6,7 +6,7 @@ let currentBgElement = layer1;
 let nextBgElement = layer2;
 
 function loadMoreBackgrounds() {
-    let i = 2;
+    let i = 3;
     function check() {
         if (i > 20) return; // safety limit
         let img = new Image();
